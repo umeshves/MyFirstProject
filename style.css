@@ -101,3 +101,148 @@ h6{font-size: 1.2rem;}
 .me-20{margin-right: 20px;}
 .me-30{margin-right: 30px;}
 .me-40{margin-right: 40px;}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.light-section{
+    background-color: #fff;
+    color: #222;
+    padding: 80px 0;
+}
+
+.dark-section{
+    background-color: #222;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.btn:link{
+    color: black;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn.btn-black,
+.btn.btn-black:link
+.btn.btn-black:visited{
+    background-color: #222;
+    color: #fff;
+    border: solid 1px #222;
+}
+
+.btn.btn-black:hover{
+    background-color: #fff;
+    color: #222;
+}
+
+.btn.btn-outline-black:link,
+.btn.btn-outline-black:visited{
+    color: #222;
+    border: solid 1px #222;
+}
+
+.btn.btn-outline-black:hover{
+    color: #fff;
+    background-color: #222;
+}
+
+.btn.btn-white,
+.btn.btn-white:link
+.btn.btn-white:visited{
+    background-color: #fff;
+    color: #222;
+    border: solid 1px #fff;
+}
+
+.btn.btn-white:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.btn.btn-outline-white:link,
+.btn.btn-outline-white:visited{
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.btn.btn-outline-white:hover{
+    color: #222;
+    background-color: #fff;
+}
+
+.btn.btn-primary:link,
+.btn.btn-primary:visited{
+    background-color: #2079bd;
+    color: #fff;
+    border: solid 1px #2079bd;
+}
+
+.btn.btn-primary:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding: 0 15px;
+}
+
+.col.col-12{width: 100%;}
+.col.col-11{width: 91.66%;}
+.col.col-10{width: 83.33%;}
+.col.col-9{width: 75%;}
+.col.col-8{width: 66.66%;}
+.col.col-7{width: 58.33%;}
+.col.col-6{width: 50%;}
+.col.col-5{width: 41.66%;}
+.col.col-4{width: 33.33%;}
+.col.col-3{width: 25%;}
+.col.col-2{width: 16.66%;}
+.col.col-1{width: 8.33%;}
+
+.clearfix{clear: both;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-justify{text-align: justify;}
+
+.section-title{
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section-subtitle{
+    font-style: italic;
+    color: #777;
+    font-size: 1.1rem;
+}
+
+.section-header{
+    margin-bottom: 25px;
+}
