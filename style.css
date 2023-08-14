@@ -246,3 +246,152 @@ h6{font-size: 1.2rem;}
 .section-header{
     margin-bottom: 25px;
 }
+
+ul.tour-dates{
+    background-color: #fff;
+    color: #222;
+    list-style: none;
+    border: solid 1px #aaa;
+}
+
+ul.tour-dates > li{
+    border-bottom: solid 1px #ccc;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.pill{
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.pill.pill-danger{
+    background-color: #f4562a;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.badge{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 100%;
+}
+
+.badge.badge-black{
+    background-color: #111;
+    color: #fff;
+}
+
+.card-image{
+    position: relative;
+    height: 200px;
+}
+
+.card-image > .card-image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.card:hover .card-image-overlay{
+    display: block;
+}
+
+.card-body{
+    background-color: #fff;
+    color: #222;
+}
+
+.tour-location{
+    font-weight: normal;
+}
+
+.tour-date{
+    color: #aaa;
+}
+
+.form-control{
+    width: 100%;
+    padding: 9px 7px;
+    border: solid 1px #bbb;
+}
+
+body{
+    min-height: 2000px;
+}
+
+.col.no-gutter {
+    padding: 0;
+}
+  
+.navbar {
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+  .menu-item {
+    display: inline-block;
+  }
+  
+  .menu-item > .menu-item-link {
+    display: inline-block;
+    padding: 15px 25px;
+  }
+  
+  .menu-item-link:link,
+  .menu-item-link:visited {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .menu-item-link:hover {
+    background-color: #AAA;
+  }
+  
+  .has-sub-menu {
+    position: relative;
+  }
+  
+  .sub-menu {
+    position: absolute;
+    background-color: #FFFEFF;
+    display: none;
+  }
+  
+  .sub-menu .menu-item .menu-item-link,
+  .sub-menu .menu-item {
+    display: block;
+  }
+  .has-sub-menu:hover .sub-menu {
+    display: block;
+    border: solid 1px #EEE;
+    border-top: none;
+  }
+  
+  .sub-menu .menu-item .menu-item-link:link,
+  .sub-menu .menu-item .menu-item-link:visited {
+    color: #111;
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 10px 40px 10px 15px;
+  }
+  
+  
+  .nav-search a {
+    display: inline-block;
+    padding: 15px 25px;
+  }
+  .nav-search a:visited,
+  .nav-search a:link {
+    color: #FFF;
+  }
+  .nav-search a:hover {
+    background-color: #F4562A;
+  }
